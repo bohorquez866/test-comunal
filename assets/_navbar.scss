@@ -1,0 +1,31 @@
+.header {
+    box-shadow: 2px 0px 17px 0px rgba(138, 142, 145, 0.58);
+}
+
+.nav {
+    font-size: 30px;
+    margin-bottom: 1px solid;
+}
+
+.nav,
+.subtitle,
+.main {
+    padding: 1rem 10%;
+}
+
+.subtitle {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+h1 {
+    font-size: 47px;
+    width: 330px;
+}
+
+.section-description {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    font-weight: normal;
+}

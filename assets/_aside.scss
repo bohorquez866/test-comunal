@@ -1,0 +1,43 @@
+body {
+    background-color: #eee;
+}
+
+.main {
+    display: flex;
+}
+
+.aside {
+    width: 300px;
+    height: 650px;
+    overflow: scroll;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    background-color: #fff;
+    border-radius: 1rem;
+    &__item {
+        margin-bottom: 1rem;
+        line-height: 1.5;
+        border-bottom: 1px solid #eee;
+        padding: 1rem 1rem 0 1rem;
+    }
+    &__section-title {
+        margin-bottom: 10px;
+    }
+    &__section-text {
+        margin-bottom: 10px;
+        color: rgb(162, 164, 167);
+    }
+    &__section-content {
+        &--selected {
+            border-top: 1px solid #eee;
+            margin-top: 10px;
+            font-size: 18px;
+            padding: 10px 0;
+            color: rgb(162, 164, 167);
+            &-active {
+                color: rgb(0, 153, 255);
+            }
+        }
+    }
+}
